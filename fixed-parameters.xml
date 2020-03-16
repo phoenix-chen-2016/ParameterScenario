@@ -1,0 +1,21 @@
+﻿<parameters>
+  
+  
+    
+    <parameter name="AuthToken" description="Description for AuthToken" defaultValue="__AUTHTOKEN__" tags="">
+    <parameterEntry kind="XmlFile" scope="\\App.config$" match="/configuration/appSettings/add[@key='AuthToken']/@value" />
+    </parameter>
+  
+    
+    <parameter name="ServiceUrl" description="Description for ServiceUrl" defaultValue="__SERVICEURL__" tags="">
+    <parameterEntry kind="XmlFile" scope="\\App.config$" match="/configuration/appSettings/add[@key='ServiceUrl']/@value" />
+    </parameter>
+  
+    
+    <parameter name="ApiPath" description="Description for ApiPath" defaultValue="__APIPATH__" tags="">
+    <parameterEntry kind="XmlFile" scope="\\App.config$" match="/configuration/appSettings/add[@key='ApiPath']/@value" />
+    </parameter>
+  
+    
+    
+</parameters>
